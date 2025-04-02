@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #00264d !important; /* Cor de fundo da navbar */
+}
+
+.navbar-nav .nav-item .btn-link {
+    color: white !important; /* Cor do texto branca */
+    text-decoration: none !important; /* Remove o sublinhado */
+}
+
+.navbar-nav .nav-item .btn-link:hover {
+    color: white !important; /* Mantém a cor ao passar o mouse */
+    text-decoration: none !important;
+}
+
+footer {
+    background-color: #00264d !important;
+    color: white !important;
+    text-align: center;
+}
+
+footer h3,
+footer li,
+footer a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+footer a:hover {
+    color: #f8f9fa !important;
+}
+
+/* Remove as bolinhas da lista */
+footer ul {
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-item-image {
+    width: 75px; /* Ajuste o tamanho conforme necessário */
+    height: 75px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+}
